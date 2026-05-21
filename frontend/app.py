@@ -1,7 +1,5 @@
-"""
-InterLock AI — Streamlit Review Console
-4-page app: Upload | Extracted Claims | Discrepancy Review | Audit Report
-"""
+# 4-page frontend app: Upload, Extracted Claims, Discrepancy Review, Audit Report
+
 
 import os
 import json

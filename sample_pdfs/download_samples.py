@@ -1,8 +1,3 @@
-"""
-Downloads the real public engineering PDFs used in the demo.
-Run: python sample_pdfs/download_samples.py
-"""
-
 import os
 import urllib.request
 

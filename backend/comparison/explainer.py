@@ -1,7 +1,7 @@
 """
 LLM explanation pass — runs AFTER all discrepancies are found deterministically.
 
-Claude's only job here: write cautious, 2-3 sentence engineering review language
+LLM's only job here: write cautious, 2-3 sentence engineering review language
 explaining why a pre-found discrepancy matters.
 It is given the two source snippets verbatim. It cannot invent a flag.
 """

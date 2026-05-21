@@ -20,12 +20,12 @@ PDF Upload → Ingestion (pdfplumber + OCR) → Hybrid Extraction (regex → Cla
 
 ## LLM role
 
-Claude is used for exactly two things:
+The LLM is used for exactly two things:
 
 1. Normalizing and classifying ambiguous values from verbatim source snippets (bounded)
 2. Writing cautious review-language explanations for discrepancies already found by the comparison engine
 
-Claude never invents a discrepancy. All flag detection is deterministic.
+In this pipeline, the LLM never invents a discrepancy. All flag detection is deterministic.
 
 ## Sample PDFs
 

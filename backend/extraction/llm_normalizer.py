@@ -1,12 +1,12 @@
 """
-Claude-powered normalization pass.
+LLM-powered normalization pass.
 
 IMPORTANT DESIGN CONSTRAINT:
-- Claude receives only verbatim source snippets from the document.
-- Claude may NOT invent values. Its only job is to normalize and classify
+- The LLM receives only verbatim source snippets from the document.
+- The LLM may NOT invent values. Its only job is to normalize and classify
   what is already present in the provided text.
 - This runs AFTER regex. It handles edge cases regex missed.
-- Returns Pydantic-validated ExtractedClaim objects.
+- Returns JSON objects.
 """
 
 import json
