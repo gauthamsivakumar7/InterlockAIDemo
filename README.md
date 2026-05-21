@@ -1,4 +1,4 @@
-# InterLock AI Demo — Review Console
+# InterLock AI Build Challenge — Review Console
 
 Cross-document discrepancy detection for engineering PDFs.
 Every flag is grounded in source evidence. Every claim is inspectable. The system assists engineering judgment — it does not replace it.
