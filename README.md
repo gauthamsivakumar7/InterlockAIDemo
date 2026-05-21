@@ -15,7 +15,7 @@ Then open: http://localhost:8501
 
 ## Architecture
 
-PDF Upload → Ingestion (pdfplumber + OCR) → Hybrid Extraction (regex → Claude normalize)
+PDF Upload → Ingestion (pdfplumber + OCR) → Hybrid Extraction (regex → LLM normalize)
 → Claim Store (SQLite) → Comparison Engine (deterministic) → LLM Explanation → Review UI
 
 ## LLM role
@@ -35,4 +35,4 @@ python sample_pdfs/download_samples.py
 
 ## Stack
 
-Python · FastAPI · SQLite · SQLAlchemy · pdfplumber · pytesseract · Anthropic SDK · Streamlit · ReportLab
+Python · FastAPI · SQLite · SQLAlchemy · pdfplumber · pytesseract · OpenAI SDK · Streamlit · ReportLab
