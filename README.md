@@ -7,7 +7,7 @@ Every flag is grounded in source evidence. Every claim is inspectable. The syste
 
 ```bash
 cp .env.example .env
-# Add your ANTHROPIC_API_KEY to .env
+# Add your OPENAI_API_KEY to .env
 bash run.sh
 ```
 
